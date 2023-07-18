@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1687917337710,
+      "tag": "0000_white_boom_boom",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1688086754325,
+      "tag": "0001_lazy_guardsmen",
+      "breakpoints": true
+    }
+  ]
+}
