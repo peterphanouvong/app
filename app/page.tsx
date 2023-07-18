@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       {isAuthenticated() ? (
         <>
-          Well, well, well.. If it isn't
+          Well, well, well.. If it isnt
           <pre>{JSON.stringify(user, null, 2)}</pre>
           <pre>
             {JSON.stringify(
