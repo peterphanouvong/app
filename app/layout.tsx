@@ -5,6 +5,7 @@ import {
   getKindeServerSession,
 } from "@kinde-oss/kinde-auth-nextjs/server";
 import "./globals.css";
+import NextLink from "next/link";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -37,6 +38,12 @@ export default function RootLayout({
               <LoginLink className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-3">
                 Sign in
               </LoginLink>
+              <NextLink
+                href={"/api/auth/login"}
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-3"
+              >
+                Sign in
+              </NextLink>
               <RegisterLink
                 orgCode="org_7e6add41413"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
